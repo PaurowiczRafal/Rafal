@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Rafal/static/css/main.f37b8026.css",
-    "main.js": "/Rafal/static/js/main.af4d8640.js",
+    "main.css": "/Rafal/static/css/main.a1de9529.css",
+    "main.js": "/Rafal/static/js/main.7b7a929b.js",
     "static/js/453.7bfc280d.chunk.js": "/Rafal/static/js/453.7bfc280d.chunk.js",
-    "static/media/bg-stars.svg": "/Rafal/static/media/bg-stars.afa41da3efa6b3469c57.svg",
+    "static/media/bg-stars.png": "/Rafal/static/media/bg-stars.010dfe25a37e812471d8.png",
     "static/media/profilePic.jpeg": "/Rafal/static/media/profilePic.42f383ab20b030a53133.jpeg",
     "index.html": "/Rafal/index.html",
-    "main.f37b8026.css.map": "/Rafal/static/css/main.f37b8026.css.map",
-    "main.af4d8640.js.map": "/Rafal/static/js/main.af4d8640.js.map",
+    "main.a1de9529.css.map": "/Rafal/static/css/main.a1de9529.css.map",
+    "main.7b7a929b.js.map": "/Rafal/static/js/main.7b7a929b.js.map",
     "453.7bfc280d.chunk.js.map": "/Rafal/static/js/453.7bfc280d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f37b8026.css",
-    "static/js/main.af4d8640.js"
+    "static/css/main.a1de9529.css",
+    "static/js/main.7b7a929b.js"
   ]
 }
