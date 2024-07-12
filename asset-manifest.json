@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Rafal/static/css/main.f37b8026.css",
+    "main.js": "/Rafal/static/js/main.af4d8640.js",
+    "static/js/453.7bfc280d.chunk.js": "/Rafal/static/js/453.7bfc280d.chunk.js",
+    "static/media/bg-stars.svg": "/Rafal/static/media/bg-stars.afa41da3efa6b3469c57.svg",
+    "static/media/profilePic.jpeg": "/Rafal/static/media/profilePic.42f383ab20b030a53133.jpeg",
+    "index.html": "/Rafal/index.html",
+    "main.f37b8026.css.map": "/Rafal/static/css/main.f37b8026.css.map",
+    "main.af4d8640.js.map": "/Rafal/static/js/main.af4d8640.js.map",
+    "453.7bfc280d.chunk.js.map": "/Rafal/static/js/453.7bfc280d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f37b8026.css",
+    "static/js/main.af4d8640.js"
+  ]
+}
