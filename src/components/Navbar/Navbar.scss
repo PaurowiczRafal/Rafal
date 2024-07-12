@@ -1,0 +1,50 @@
+.nav {
+    position: sticky;
+    top: 24px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+	&-menu {
+		display: inline-flex;
+		padding: 4px 8px;
+		align-items: center;
+		gap: 36px;
+		border-radius: 999px;
+		background: var(--bg-navbar);
+		backdrop-filter: blur(16px);
+	}
+	&-link {
+		color: var(--nav-text-default);
+        font-size: 1rem;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 1.25;
+        padding: 4px;
+        cursor: pointer;
+		&-active {
+			color: var(--nav-text-active);
+			font-weight: 700;
+		}
+		&:hover {
+			color: var(--nav-text-hover);
+		}
+	}
+}
+
+
+// Breakpoint at 768px
+@media (max-width: 768px) {
+    .nav {
+        &-menu {
+            gap: 16px;
+        }
+        &-link {
+            font-size: 14px;
+            &-active {
+            }
+            &:hover {
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap');
+
+:root {
+	--bg-main-color: #000212;
+	--bg-navbar: rgba(255, 255, 255, 0.01);
+	--nav-text-active: #e6e6e6;
+	--nav-text-hover: #e6e6e6;
+	--nav-text-default: #b4bcd0;
+	/* Text */
+	--text-gradient: linear-gradient(180deg, #fff 25%, #8b8b8b 75%);
+	--text-normal: #b4bcd0;
+
+	/* Button */
+	--text-btn-default: #e6e6e6;
+}
+html, body{
+	// scroll-behavior: smooth;
+	max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	font-family: 'Satoshi', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--bg-main-color);
+	background-image: url('../src/img/background/bg-stars.svg');
+	color: var(--text-normal);
+}
+body {
+    background-attachment: fixed;
+    background-position: center 0;
+}
+.section {
+	max-width: 1440px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	// overflow-x: hidden;
+}
+/* ! TEXT */
+.text-gradient {
+	background: var(--text-gradient);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* * SCROLLBAR * */
+.scrollbar-hide::-webkit-scrollbar {
+	display: none;
+}
+* ::-webkit-scrollbar {
+	display: none;
+}
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+	/* -ms-overflow-style: none; IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+/* ! TESTING */
+.test {
+	background-color: #e8b5b560;
+	border: 1px solid black;
+}
+.test-2 {
+	background-color: #b5e8c356;
+	border: 1px solid black;
+}
+.test-3 {
+	background-color: #b5b8e856;
+	border: 1px solid black;
+}

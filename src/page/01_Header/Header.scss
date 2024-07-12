@@ -1,0 +1,104 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 7.5rem;
+	width: 49.5rem;
+	gap: 16px;
+	align-self: stretch;
+
+	&-pic {
+		width: 5rem;
+		height: 5rem;
+		border-radius: 5rem;
+		border: 0.0625rem solid #000212;
+		background: url('../../img//profilePic/profilePic.jpeg') lightgray 50% / cover no-repeat;
+		background-size: 130%;
+	}
+
+	&-welcome {
+		font-size: 64px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 1.25;
+	}
+
+	&-info {
+		text-align: center;
+		font-size: 2.25rem;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 1.25;
+	}
+}
+
+.ellipse {
+	position: absolute;
+	top: 12.5rem;
+	width: 1560px;
+	height: 491px;
+	background: radial-gradient(circle, #e6e6e63d 24%, #0002123d 24%);
+	background: radial-gradient(circle, #0002123d 24%, #e6e6e63d 24%);
+    background: radial-gradient(40.36% 129.52% at 50% 129.52%, rgba(230, 230, 230, 0.24) 0%, rgba(0, 2, 18, 0.24) 100%);
+	border-radius: 50%;
+	z-index: -1;
+
+	&::before {
+		content: '';
+		position: absolute;
+		width: 1558px; /* 1px bigger than the parent element */
+		height: 490px; /* 1px bigger than the parent element */
+		background-color: #000212;
+        // background-color: transparent;
+		border-radius: 50%;
+		z-index: -2; /* Behind the parent element */
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		height: 500px;
+		background-color: #000212;
+	}
+}
+// Breakpoint at 48rem
+@media (max-width: 48rem) {
+	.header {
+		margin-top: 9.25rem;
+		width: 100vw;
+		max-width: 100vw;
+		padding: 0 1rem;
+		overflow: hidden;
+
+		&-pic {
+		}
+
+		&-welcome {
+			font-size: 32px;
+		}
+
+		&-info {
+			font-size: 1.125rem;
+		}
+	}
+
+	.ellipse {
+		position: absolute;
+		top: 9.25rem;
+		width: 695px;
+		height: 491px;
+
+		&::before {
+			content: '';
+			width: 694px;
+			height: 490px;
+		}
+
+		&::after{
+		    height: 300px;
+		}
+	}
+}
