@@ -30,12 +30,24 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: var(--bg-main-color);
-	background-image: url('../src/img/background/bg-stars.svg');
+	// background-image: url('../src/img/background/bg-stars.svg');
 	color: var(--text-normal);
 }
 body {
     background-attachment: fixed;
     background-position: center 0;
+}
+
+.bgStars{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	background-image: url('../src/img/background/bg-stars.png');
+	background-repeat: repeat;
+
 }
 .section {
 	max-width: 1440px;
