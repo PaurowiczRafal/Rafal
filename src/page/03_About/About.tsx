@@ -1,5 +1,5 @@
-const Works = () => {
+const About = () => {
     return ( <div className=""></div> );
 }
  
-export default Works;
+export default About;

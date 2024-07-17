@@ -1,0 +1,122 @@
+.work {
+	display: flex;
+	flex-direction: column;
+	padding: 4rem 7.5rem;
+	gap: 3rem;
+
+	&-heading {
+		display: flex;
+		width: 384px;
+		padding: 0px 16px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 12px;
+		text-align: center;
+		&-main {
+			font-size: 48px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 1.25;
+		}
+		&-info {
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 1.25;
+		}
+	}
+}
+
+.workCards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 97px;
+	align-self: stretch;
+
+	&-info{
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		margin-left: 102px;
+		margin-right: 0;
+	}
+	&-title{
+		color: var(--text-white);
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 1.25;
+	}
+	&-text{
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 1.25;
+	
+	}
+}
+
+.elipse-work {
+	width: 48px;
+	height: 48px;
+	background-image: url('../../img/work/Ellipse.png');
+}
+
+
+@media (max-width: 1024px)  {
+
+	.work {
+		padding: 4rem 1rem;
+		gap: 2rem;
+		margin-top: 12rem;
+	
+		&-heading {
+			display: flex;
+			&-main {
+				font-size: 24px;
+			}
+			&-info {
+				font-size: 16px;
+			}
+		}
+	}
+	
+	.workCards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 97px;
+		align-self: stretch;
+	
+		&-info{
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+			margin-left: 102px;
+			margin-right: 0;
+		}
+		&-title{
+			color: var(--text-white);
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 1.25;
+		}
+		&-text{
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 1.25;
+		
+		}
+	}
+	
+	.elipse-work {
+		width: 48px;
+		height: 48px;
+		background-image: url('../../img/work/Ellipse.png');
+	}
+	
+}

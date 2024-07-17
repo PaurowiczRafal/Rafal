@@ -13,6 +13,7 @@
 	/* Text */
 	--text-gradient: linear-gradient(180deg, #fff 25%, #8b8b8b 75%);
 	--text-normal: #b4bcd0;
+	--text-white:  #e6e6e6;
 
 	/* Button */
 	--text-btn-default: #e6e6e6;
@@ -57,6 +58,7 @@ body {
 	margin: auto;
 	// overflow-x: hidden;
 }
+
 /* ! TEXT */
 .text-gradient {
 	background: var(--text-gradient);
