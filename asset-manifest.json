@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Rafal/static/css/main.a1de9529.css",
-    "main.js": "/Rafal/static/js/main.7b7a929b.js",
+    "main.css": "/Rafal/static/css/main.8149e44a.css",
+    "main.js": "/Rafal/static/js/main.1d10c62a.js",
     "static/js/453.7bfc280d.chunk.js": "/Rafal/static/js/453.7bfc280d.chunk.js",
     "static/media/bg-stars.png": "/Rafal/static/media/bg-stars.010dfe25a37e812471d8.png",
     "static/media/profilePic.jpeg": "/Rafal/static/media/profilePic.42f383ab20b030a53133.jpeg",
     "index.html": "/Rafal/index.html",
-    "main.a1de9529.css.map": "/Rafal/static/css/main.a1de9529.css.map",
-    "main.7b7a929b.js.map": "/Rafal/static/js/main.7b7a929b.js.map",
+    "static/media/link-external.svg": "/Rafal/static/media/link-external.d82593b77c4aa4f80bfcc72525ca60a1.svg",
+    "main.8149e44a.css.map": "/Rafal/static/css/main.8149e44a.css.map",
+    "main.1d10c62a.js.map": "/Rafal/static/js/main.1d10c62a.js.map",
     "453.7bfc280d.chunk.js.map": "/Rafal/static/js/453.7bfc280d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1de9529.css",
-    "static/js/main.7b7a929b.js"
+    "static/css/main.8149e44a.css",
+    "static/js/main.1d10c62a.js"
   ]
 }
