@@ -59,6 +59,13 @@ body {
 	// overflow-x: hidden;
 }
 
+.elipse-heading {
+	width: 48px;
+	height: 48px;
+	background-image: url('../src/img/elipse/Ellipse.png');
+}
+
+
 /* ! TEXT */
 .text-gradient {
 	background: var(--text-gradient);

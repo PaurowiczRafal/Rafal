@@ -9,7 +9,7 @@ const Works = () => {
 			className='work section'>
 			<div className='work-heading'>
 				<div className=''>
-					<div className='elipse-work'></div>
+					<div className='elipse-heading'></div>
 				</div>
 				<div className=''>
 					<p className='work-heading-main text-gradient'>My work</p>
