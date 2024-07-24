@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rafal/static/css/main.2e8228dc.css",
-    "main.js": "/Rafal/static/js/main.02a445d4.js",
+    "main.css": "/Rafal/static/css/main.c0c9a451.css",
+    "main.js": "/Rafal/static/js/main.dcc27b53.js",
     "static/js/453.7bfc280d.chunk.js": "/Rafal/static/js/453.7bfc280d.chunk.js",
     "static/media/bg-stars.png": "/Rafal/static/media/bg-stars.010dfe25a37e812471d8.png",
     "static/media/sup2.jpeg": "/Rafal/static/media/sup2.41d8810c2fabaf2362dc.jpeg",
@@ -12,7 +12,6 @@
     "static/media/anytime.svg": "/Rafal/static/media/anytime.1919591fe200b9d115044579e14ad6f2.svg",
     "static/media/react.svg": "/Rafal/static/media/react.bc1e2a5c5338c7f21aa558a8bc20e659.svg",
     "static/media/csharp.svg": "/Rafal/static/media/csharp.23f2cbb4c0df9fcec3f3c063fde03baf.svg",
-    "static/media/saio-logo.svg": "/Rafal/static/media/saio-logo.568debf66ef69cfd9d405cc33ea0b2ed.svg",
     "static/media/typescript.svg": "/Rafal/static/media/typescript.c640dec1dd37dbf2cee7802a374ec968.svg",
     "static/media/github.svg": "/Rafal/static/media/github.0d2c41dc904f65205e3d14513b5e7ca2.svg",
     "static/media/tailwind.svg": "/Rafal/static/media/tailwind.a2d132e9fce1bb0fbae5d9b977dac0a4.svg",
@@ -21,12 +20,12 @@
     "index.html": "/Rafal/index.html",
     "static/media/link-external.svg": "/Rafal/static/media/link-external.d82593b77c4aa4f80bfcc72525ca60a1.svg",
     "static/media/about-elipse.svg": "/Rafal/static/media/about-elipse.02206f345e47953cafc801ad6988325f.svg",
-    "main.2e8228dc.css.map": "/Rafal/static/css/main.2e8228dc.css.map",
-    "main.02a445d4.js.map": "/Rafal/static/js/main.02a445d4.js.map",
+    "main.c0c9a451.css.map": "/Rafal/static/css/main.c0c9a451.css.map",
+    "main.dcc27b53.js.map": "/Rafal/static/js/main.dcc27b53.js.map",
     "453.7bfc280d.chunk.js.map": "/Rafal/static/js/453.7bfc280d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e8228dc.css",
-    "static/js/main.02a445d4.js"
+    "static/css/main.c0c9a451.css",
+    "static/js/main.dcc27b53.js"
   ]
 }
