@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rafal/static/css/main.88374e53.css",
-    "main.js": "/Rafal/static/js/main.9f001f02.js",
+    "main.css": "/Rafal/static/css/main.86c19f98.css",
+    "main.js": "/Rafal/static/js/main.125ed4de.js",
     "static/js/453.7bfc280d.chunk.js": "/Rafal/static/js/453.7bfc280d.chunk.js",
     "static/media/bg-stars.png": "/Rafal/static/media/bg-stars.010dfe25a37e812471d8.png",
     "static/media/sup2.jpeg": "/Rafal/static/media/sup2.41d8810c2fabaf2362dc.jpeg",
@@ -24,12 +24,12 @@
     "index.html": "/Rafal/index.html",
     "static/media/link-external.svg": "/Rafal/static/media/link-external.d82593b77c4aa4f80bfcc72525ca60a1.svg",
     "static/media/about-elipse.svg": "/Rafal/static/media/about-elipse.02206f345e47953cafc801ad6988325f.svg",
-    "main.88374e53.css.map": "/Rafal/static/css/main.88374e53.css.map",
-    "main.9f001f02.js.map": "/Rafal/static/js/main.9f001f02.js.map",
+    "main.86c19f98.css.map": "/Rafal/static/css/main.86c19f98.css.map",
+    "main.125ed4de.js.map": "/Rafal/static/js/main.125ed4de.js.map",
     "453.7bfc280d.chunk.js.map": "/Rafal/static/js/453.7bfc280d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88374e53.css",
-    "static/js/main.9f001f02.js"
+    "static/css/main.86c19f98.css",
+    "static/js/main.125ed4de.js"
   ]
 }
